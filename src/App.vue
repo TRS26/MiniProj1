@@ -54,11 +54,13 @@
 </template>
 
 <style>
+@font-face {
+  font-family: Itim;
+  src: url("assets/Itim-Regular.ttf");
+}
 #app {
-  font-family: Jua;
-  font-style: normal;
-  line-height: normal;
-  background-color: #525252;
+  margin: 0;
+  padding: 0;
 }
 
 #nav {
@@ -66,8 +68,6 @@
   width: 99.5%;
   height: 100px;
   flex-shrink: 0;
-  border: 5px solid #000;
-  background: #d87348;
 }
 
 #foo {
@@ -75,14 +75,12 @@
   width: 99.5%;
   height: 100px;
   flex-shrink: 0;
-  border: 5px solid #000;
-  background: #d87348;
 }
 
 
 .name {
   color: #000;
-  font-family: Jua;
+  font-family: "Itim";
   font-size: 52px;
   font-style: normal;
   text-decoration: none;
@@ -91,7 +89,7 @@
 }
 .menu1 a {
   color: #000;
-  font-family: Jua;
+  font-family: "Itim";
   font-size: 30px;
   line-height: normal;
   font-style: normal;
@@ -101,7 +99,7 @@
 }
 .menu2 a {
   color: #000;
-  font-family: Jua;
+  font-family: "Itim";
   font-size: 30px;
   line-height: normal;
   font-style: normal;
@@ -111,7 +109,7 @@
 }
 .menu3 a {
   color: #000;
-  font-family: Jua;
+  font-family: "Itim";
   font-size: 30px;
   line-height: normal;
   font-style: normal;
@@ -122,21 +120,26 @@
 .icon1{
   display: flex;
   padding: 26px 0px 0px 360px;
+  filter: invert(33%) sepia(24%) saturate(1465%) hue-rotate(180deg) brightness(91%) contrast(100%);
 }
 .icon2{
   display: flex;
   padding: 26px 0px 0px 240px;
+  filter: invert(33%) sepia(24%) saturate(1465%) hue-rotate(180deg) brightness(91%) contrast(100%);
 }
 .icon3{
   display: flex;
   padding: 26px 0px 0px 240px;
+  filter: invert(33%) sepia(24%) saturate(1465%) hue-rotate(180deg) brightness(91%) contrast(100%);
 }
 .icon4{
   display: flex;
   padding: 26px 0px 0px 240px;
+  filter: invert(33%) sepia(24%) saturate(1465%) hue-rotate(180deg) brightness(91%) contrast(100%);
 }
 .icon5{
   display: flex;
   padding: 26px 0px 0px 240px;
+  filter: invert(33%) sepia(24%) saturate(1465%) hue-rotate(180deg) brightness(91%) contrast(100%);
 }
 </style>

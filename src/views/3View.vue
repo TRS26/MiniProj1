@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-      <img id="img" alt="Vue logo" src="../assets/eu.png">
+    <img id="img" alt="Vue logo" src="../assets/eu.png">
       <div>
         <p class="title">Hobbies</p>
         <p class="text">- Ler</p>
         <p class="text">- Jogar</p>
-        <p class="text">- Ver séries</p>
-        <p class="text">- Fazer desporto</p>
+        <p class="text">- Séries</p>
+        <p class="text">- Desporto</p>
       </div>
   </div>
 </template>
 
 <style scoped>
 .home{
+  margin: 0;
+  font-family: "Itim", cursive; font-weight: 400; font-style: normal;
   display: flex;
   height: 710px;
 }

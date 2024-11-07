@@ -3,16 +3,25 @@
       <img id="img" alt="Vue logo" src="../assets/eu.png">
       <div>
         <p class="title">Quem sou eu?</p>
-        <p class="text">Nasci em Vila Real, Portugal no dia 26 de dezembro de 2001, estudei ate ao 9o ano na escola secundária Morgado Mateus, no 10º ano decidi seguir um curso profissional na área da multimedia, realizei os exames nacionais com o objetivo de ingressar a universidade, meta que cumpri nesse mesmo ano entrando em Comunicacao e Multimedia na UTAD. Aqui fui experimentando as diversas areas do curso interessando-me mais pelo desenvolvimento WEB.</p>
+        <p class="text">Profissional na área de Comunicação e Multimédia, com
+                        experiência como designer e desenvolvedor web. Licenciado
+                        Universidade de Trás-os-Montes e Alto Douro em 2022,
+                        especializado em desenvolvimento web, com destaque para PHP e
+                        React. Possuo experiência em estágios nas áreas de design e
+                        desenvolvimento web, em empresas como Média Byter, Atipico
+                        Design e Purple Profile.</p>
       </div>
   </div>
 </template>
 
 <style scoped>
 .home{
+  margin: 0;
+  font-family: "Itim", cursive; font-weight: 400; font-style: normal;
   display: flex;
   height: 710px;
 }
+
 #img{
   width: 620px;
   height: 650px;
